@@ -8,6 +8,7 @@
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   
   <!-- ** Plugins Needed for the Project ** -->
   <!-- Bootstrap -->
@@ -108,7 +109,9 @@
                         <h2>Contact us</h2>
                     </div> -->
 
-                <form id="contact-form" class="contact__form mt-5" method="post" action="mail.php">
+                <!-- <form id="contact-form" class="contact__form mt-5" method="post" action="mail.php"> -->
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xpzlakqg"
+                    method="post">
              <!-- form message -->
                 <div class="row">
                     <div class="col-12">
@@ -156,7 +159,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-lg-6">
-                <p class="mb-0">Copyrights © 2019. Designed & Developed by <a href="themefisher.com"
+                <p class="mb-0">Copyrights © 2019. Designed & Developed by <a href="https://www.themefisher.com"
                         class="text-white">Themefisher</a></p>
             </div>
             <div class="col-lg-6">
@@ -166,6 +169,14 @@
                                     class="ti-github mr-3"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/jamaciastf/"
                                 target="_blank"><i class="ti-linkedin mr-3"></i></a></li>
+                        <li class="list-inline-item">
+                            <script language="JavaScript">
+                                var username = "jamaciastf";
+                                var hostname = "gmail.com";
+                                var linktext = username + "@" + hostname;
+                                document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "' target='_blank'><i class='fas fa-at mr-3'></i></a >");
+                            </script>
+                        </li>
                     </ul>
                 </div>
             </div>

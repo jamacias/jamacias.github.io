@@ -1,0 +1,8 @@
+.md-typeset {
+    text-align: justify;
+}
+
+.md-content {
+    --md-typeset-a-color: #9EA0AA;
+    --md-typeset-img-border: darkgrey;
+}

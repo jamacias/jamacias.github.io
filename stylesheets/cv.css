@@ -1,0 +1,13 @@
+/* .md-sidebar__inner {
+    display: none;
+} */
+
+/* .md-sidebar--primary {
+  display: none;
+} */
+
+/* Underline links inside the CV paragraphs but not the buttons */
+.md-typeset ul li a
+{
+  text-decoration: underline;
+}

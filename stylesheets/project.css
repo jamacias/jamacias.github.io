@@ -1,0 +1,35 @@
+/* Scale to fit the page */
+/* Small images will become very blurry */
+/* Not recommended */
+
+/* .md-content__inner img {
+    width: 100%;
+} */
+
+/* Scale to fit the page with constraints */
+/* Smaller images will be min 25% of the width, so not as blurry */
+/* Bigger images will be max 90% of the width, better for centring (?) */
+
+
+.md-content__inner img {
+    min-width: 25%;
+    max-width: 90%;
+}
+
+/* Center the images */
+
+.md-content__inner img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Add outline to make them pop */
+
+.md-content__inner img {
+    outline: 1px solid var(--md-typeset-img-border);
+}
+
+/* Hide TOC */
+.md-sidebar--secondary {
+  display: none;
+}

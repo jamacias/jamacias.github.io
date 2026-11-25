@@ -2,6 +2,21 @@
     text-align: justify;
 }
 
+.md-typeset a {
+  text-decoration: underline;
+}
+
+/* Do not underline links in buttons */
+.md-typeset .md-button--primary {
+  text-decoration: none;
+}
+
+/* Do not underline links inside cards */
+.md-typeset .grid ul li a
+{
+  text-decoration: none;
+}
+
 .md-content {
     --md-typeset-a-color: #9EA0AA;
     --md-typeset-img-border: darkgrey;
